@@ -1,0 +1,29 @@
+function checkAdd(){
+    var okToSubmit= true;
+	if(document.getElementById("newname").value==""){
+		//won't submit if no name is entered 
+		document.getElementById("nameError").innerHTML="must enter name";
+		console.log("hit");
+		var okToSubmit=false;	
+	}
+
+if(document.getElementById("newprice").value==""){
+		//won't submit if no name is entered 
+		document.getElementById("priceError").innerHTML="must enter price";
+		console.log("hit");
+		var okToSubmit=false;	
+	}
+	if(document.getElementById("newDescriptLrg").value==""){
+		//won't submit if no name is entered 
+		document.getElementById("descriptLrg").innerHTML="must enter description";
+		console.log("hit");
+		var okToSubmit=false;	
+	}
+	if(document.getElementById("newDescriptSml").value==""){
+		//won't submit if no name is entered 
+		document.getElementById("descriptSml").innerHTML="must enter brief description";
+		console.log("hit");
+		var okToSubmit=false;	
+	}
+    
+}

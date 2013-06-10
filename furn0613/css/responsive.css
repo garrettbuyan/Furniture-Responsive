@@ -1,0 +1,785 @@
+/*----- SCREEN SIZE 320PX WIDTH ----*/
+@media  (min-width: 300px) and ( max-width: 480px){
+  #disclaim{
+
+    width:100%;
+  }
+  #warningTxt{
+    width: 80%;
+    margin-top: 0%;
+    padding: 0%;
+  }
+  #wrapper{
+    width:100%;
+  }
+  #content{
+    width:100%;
+  }
+  #logo{
+ width:100%;
+  }
+  #mainNav{
+    width:100%;
+    background-color: none;
+  }
+    /*---Content Area--*/
+  #welcome{
+ width: 100%;
+    height: auto;
+    padding:.5% 0% 4% 0%;
+
+  }
+  #pageHead{
+  width: 100%;
+    height: auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin: 0%;
+  }
+  .pagetitle{
+    font-size: 2rem;
+  }
+.homePageNav{
+  width: 100%;
+  height: auto;
+  margin: 0% auto;
+  display: inline-block;
+}
+.enterCat{
+float: none;  width: 100%;
+  font-size: 1.5rem;
+  padding:1% 0% 1% 0%;
+  margin: .5% 0% 0% 0%;
+  
+}
+
+/*----CATALOG PAGE -----*/
+#mainNav ul{
+  width: 100%;
+}
+nav ul li{
+float: none;
+  margin: 0%;
+
+}
+#link{
+  height: auto;
+  width: 100%;
+  padding: 1% 0% 1% 0%;
+  border-radius: 0%;
+  font-size: 1.5rem;
+}
+#sort{
+  width:100%;
+  margin: 2% auto;
+}
+#sort a{
+  border-radius: 0%;
+float: none;
+width: 100%;
+display: block;
+text-align: center;
+margin-left: 0%;
+padding: .5% 0% .5% 0%;
+}
+
+.sortNav{
+  width:100%;
+}
+
+.sortNav li{
+  width: 100%;
+  clear: both;
+  float: none;
+  display: inline-block;
+}
+    /*----- ADMIN NAV -----*/
+
+    #loggedIn{
+      width: 100%;
+      padding: .5% 0% .5% 0%;
+      text-align: center;
+    }
+    .Slink{
+      margin: 0%;
+      clear: both;
+      width: 100%;
+      padding: 1.5% 0% 1.5% 0%;
+      border-radius: 0%;
+      font-size: 1.3rem;
+    }
+
+
+    /*---- ITEMS -----*/
+
+    #items{
+      padding: 0%;
+      width: 100%;
+      margin: 2% auto;
+      height: auto;
+      clear: left;
+     display: inline-block;
+    }
+
+    h3{
+      margin-top: .85%;
+      font-size: 1.75rem;
+      text-align: center;
+    }
+    #smlImg{
+      width: 100%;
+      margin: 0%;
+      display: block;
+      clear: both;
+    }
+
+    #smlImg input{
+  
+  width:100%;
+}
+#smlImg input, #smlDescript input{
+  background:none;
+  border:none;  
+  color: #754c24;
+        font-family: sans-serif;
+        font-size:1.15rem;
+    font-style:italic;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#smlImg input:hover, #smlDescript input:hover{
+  background:none;
+  border:none;  
+  color:#630;
+        font-family: sans-serif;
+    font-style:italic;
+    text-decoration:underline;
+    font-weight:bold;
+}
+#smlDescript{
+  width: 90%;
+  height: auto;
+  font-size: 1.25rem;
+}
+.price{
+  font-size: 1rem;
+}
+.num{
+  font-size: .75rem;
+}
+
+    /*---- SALES PAGE ----*/
+    .salesDirect{
+      width: 100%;
+      padding: 1% 0% 0% 0%;
+      border-top: #e4d5bb solid .15em;
+    }
+.sales{
+  clear: both;
+  width: 90%;
+  margin: 1% 0% 1% .5% ;
+  height: auto;
+  padding: 3%;
+}
+.sales p{
+  font-size: 1rem;
+}
+.salesDescript{
+   text-align: left;
+   font-size: 1.25rem;
+ 
+}
+
+  /*--- CONTACT PAGE ---*/
+  #contactLrg{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  .contactForm, #adding{
+    width: 90%;
+    padding: 2%;
+    text-align: center;
+
+    font-size: 1.5rem;
+  }
+  .nameCon, #email, .contactTxt, #Upass,#Uname{
+    margin: 0%;
+    width: 100%;
+    padding: 3%;
+
+  }
+  #Upass,#Uname{
+    width: 50%;
+  }
+.subCon{
+  width: 80%;
+  padding: 3%;
+    font-size: 1.5rem;
+margin-left: 10%;
+clear: both;
+}
+#contact{
+  padding:1% 0% 1% 0%;
+  clear: both;
+  margin: 0%;
+  width: 100%;
+  float: none;
+}
+/*---  ADDING FURNITURE PAGE ----*/
+#adding{
+  margin:0%;
+}
+
+  /*--- Footer ---*/
+  #footer{
+width: 100%;
+    margin: 0%;
+  }
+
+  #footer ul{ width: 90%;
+    margin: .5% auto;
+    display: inline-block;
+  }
+  /*--- CLEAR FORCED MARGINS --*/
+  #contactMargin{
+    display: none;
+  }
+.homeBreal{
+  display: block;
+}
+}
+/*-------- END 320PX WIDTH --------*/
+/*----- SCREEN SIZE 481-560 WIDTH ----*/
+@media (min-width: 481px) and ( max-width: 560px){
+  #disclaim{
+
+    width:100%;
+  }
+  #warningTxt{
+    width: 80%;
+    margin-top: 0%;
+    padding: 0%;
+  }
+  #wrapper{
+    width:100%;
+  }
+  #content{
+    width:100%;
+  }
+  #logo{
+    width:100%;
+  }
+  #mainNav{
+    width:100%;
+    background-color: none;
+  }
+    /*---Content Area--*/
+  #welcome{
+    width: 100%;
+    height: auto;
+    padding:.5% 0% 0% 0%;
+
+  }
+  #pageHead{
+    width: 100%;
+    height: auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin: 0%;
+  }
+  .pagetitle{
+    font-size: 2rem;
+  }
+.homePageNav{
+  width: 100%;
+  height: auto;
+  margin: 0% auto;
+  display: inline-block;
+}
+.homePageNav li{
+float: none;
+clear: none;
+
+}
+.enterCat{
+    
+  float: none;
+  width: 100%;
+  font-size: 1.5rem;
+  padding:1% 0% 1% 0%;
+  margin: .5% 0% 0% 0%;
+  
+}
+
+/*----CATALOG PAGE -----*/
+#mainNav ul{
+  width: 100%;
+}
+nav ul li{
+float: none;
+  margin: 0%;
+
+}
+#link{
+  height: auto;
+  width: 100%;
+  padding: 1% 0% 1% 0%;
+  border-radius: 0%;
+  font-size: 1.5rem;
+}
+#sort{
+  width:100%;
+  margin: 2% auto;
+}
+#sort a{
+  border-radius: 0%;
+float: none;
+width: 100%;
+display: block;
+text-align: center;
+margin-left: 0%;
+padding: .5% 0% .5% 0%;
+}
+
+.sortNav{
+  width:100%;
+}
+
+.sortNav li{
+  width: 100%;
+  clear: both;
+  float: none;
+  display: inline-block;
+}
+    /*----- ADMIN NAV -----*/
+
+    #loggedIn{
+      width: 100%;
+      padding: .5% 0% .5% 0%;
+      text-align: center;
+    }
+    .Slink{
+      margin: 0%;
+      clear: both;
+      width: 100%;
+      padding: 1.5% 0% 1.5% 0%;
+      border-radius: 0%;
+      font-size: 1.3rem;
+    }
+
+
+    /*---- ITEMS -----*/
+
+    #items{
+      padding: 0%;
+      width: 100%;
+      margin: 2% auto;
+      height: auto;
+      clear: left;
+     display: inline-block;
+    }
+
+    h3{
+      margin-top: .85%;
+      font-size: 1.75rem;
+      text-align: center;
+    }
+    #smlImg{
+      width: 100%;
+      margin: 0%;
+      display: block;
+      clear: both;
+    }
+
+    #smlImg input{
+  
+  width:100%;
+}
+#smlImg input, #smlDescript input{
+  background:none;
+  border:none;  
+  color: #754c24;
+        font-family: sans-serif;
+        font-size:1.15rem;
+    font-style:italic;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#smlImg input:hover, #smlDescript input:hover{
+  background:none;
+  border:none;  
+  color:#630;
+        font-family: sans-serif;
+    font-style:italic;
+    text-decoration:underline;
+    font-weight:bold;
+}
+#smlDescript{
+  width: 90%;
+  height: auto;
+  font-size: 1.25rem;
+}
+.price{
+  font-size: 1rem;
+}
+.num{
+  font-size: .75rem;
+}
+
+    /*---- SALES PAGE ----*/
+    .salesDirect{
+      width: 100%;
+      padding: 1% 0% 0% 0%;
+      border-top: #e4d5bb solid .15em;
+    }
+.sales{
+  clear: both;
+  width: 90%;
+  margin: 1% 0% 1% .5% ;
+  height: auto;
+  padding: 3%;
+}
+.sales p{
+  font-size: 1rem;
+}
+.salesDescript{
+   text-align: left;
+   font-size: 1.25rem;
+ 
+}
+
+  /*--- CONTACT PAGE ---*/
+  #contactLrg{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  .contactForm, #adding{
+    width: 90%;
+    padding: 2%;
+    text-align: center;
+
+    font-size: 1.5rem;
+  }
+  .nameCon, #email, .contactTxt, #Upass,#Uname{
+    margin: 0%;
+    width: 100%;
+    padding: 3%;
+
+  }
+  #Upass,#Uname{
+    width: 50%;
+  }
+.subCon{
+  width: 80%;
+  padding: 3%;
+    font-size: 1.5rem;
+margin-left: 10%;
+clear: both;
+}
+#contact{
+  padding:1% 0% 1% 0%;
+  clear: both;
+  margin: 0%;
+  width: 100%;
+  float: none;
+}
+/*---  ADDING FURNITURE PAGE ----*/
+#adding{
+  margin:0%;
+}
+
+  /*--- Footer ---*/
+  #footer{
+    width: 100%;
+    margin: 0%;
+    height: auto;
+    padding-bottom: 1%;
+  }
+
+  #footer ul{ width: 85%;
+    margin: .5% 0% 0% 5%;
+
+
+    display: inline-block;
+  }
+  #delete input{
+    clear: both;
+    float: none;
+    margin: 0%;
+    width: 100%;
+  }
+  /*--- CLEAR FORCED MARGINS --*/
+  #contactMargin{
+    display: none;
+  }
+}
+/*----- SCREEN SIZE 561-720 WIDTH ----*/
+@media (min-width: 561px) and ( max-width: 720px){
+  #disclaim{
+
+    width:100%;
+  }
+  #warningTxt{
+    width: 80%;
+    margin-top: 0%;
+    padding: 0%;
+  }
+  #wrapper{
+    width:100%;
+  }
+  #content{
+    width:100%;
+  }
+  #logo{
+    width:100%;
+  }
+  #mainNav{
+    width:100%;
+    background-color: none;
+  }
+    /*---Content Area--*/
+  #welcome{
+    width: 100%;
+    height: auto;
+    padding:.5% 0% 0% 0%;
+
+  }
+  #pageHead{
+    width: 100%;
+    height: auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin: 0%;
+  }
+  .pagetitle{
+    font-size: 2rem;
+  }
+.homePageNav{
+  width: 100%;
+  height: auto;
+  margin: 0% auto;
+  display: inline-block;
+}
+.enterCat{
+ float: left;
+  width: 100%;
+  font-size: 1.5rem;
+  padding:1% 0% 1% 0%;
+  margin: .5% 0% 0% 0%;
+  
+}
+/*----CATALOG PAGE -----*/
+#mainNav ul{
+  width: 100%;
+}
+nav ul li{
+float: none;
+  margin: 0%;
+
+}
+#link{
+  height: auto;
+  width: 100%;
+  padding: 1% 0% 1% 0%;
+  border-radius: 0%;
+  font-size: 1.5rem;
+}
+#sort{
+  width:100%;
+  margin: 2% auto;
+}
+#sort a{
+  border-radius: 0%;
+float: none;
+width: 100%;
+display: block;
+text-align: center;
+margin-left: 0%;
+padding: .5% 0% .5% 0%;
+}
+
+.sortNav{
+  width:100%;
+}
+
+.sortNav li{
+  width: 100%;
+  clear: both;
+  float: none;
+  display: inline-block;
+}
+    /*----- ADMIN NAV -----*/
+
+    #loggedIn{
+      width: 100%;
+      padding: .5% 0% .5% 0%;
+      text-align: center;
+    }
+    .Slink{
+      margin: 0%;
+      clear: both;
+      width: 100%;
+      padding: 1.5% 0% 1.5% 0%;
+      border-radius: 0%;
+      font-size: 1.3rem;
+    }
+
+
+    /*---- ITEMS -----*/
+
+    #items{
+      padding: 0%;
+      width: 100%;
+      margin: 2% auto;
+      height: auto;
+      clear: left;
+     display: inline-block;
+    }
+
+    h3{
+      margin-top: .85%;
+      font-size: 1.75rem;
+      text-align: center;
+    }
+    #smlImg{
+      width: 100%;
+      margin: 0%;
+      display: block;
+      clear: both;
+    }
+
+    #smlImg input{
+  
+  width:100%;
+}
+#smlImg input, #smlDescript input{
+  background:none;
+  border:none;  
+  color: #754c24;
+        font-family: sans-serif;
+        font-size:1.15rem;
+    font-style:italic;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#smlImg input:hover, #smlDescript input:hover{
+  background:none;
+  border:none;  
+  color:#630;
+        font-family: sans-serif;
+    font-style:italic;
+    text-decoration:underline;
+    font-weight:bold;
+}
+#smlDescript{
+  width: 90%;
+  height: auto;
+  font-size: 1.25rem;
+}
+.price{
+  font-size: 1rem;
+}
+.num{
+  font-size: .75rem;
+}
+
+    /*---- SALES PAGE ----*/
+    .salesDirect{
+      width: 100%;
+      padding: 1% 0% 0% 0%;
+      border-top: #e4d5bb solid .15em;
+    }
+.sales{
+  clear: both;
+  width: 90%;
+  margin: 1% 0% 1% .5% ;
+  height: auto;
+  padding: 3%;
+}
+.sales p{
+  font-size: 1rem;
+}
+.salesDescript{
+   text-align: left;
+   font-size: 1.25rem;
+ 
+}
+
+  /*--- CONTACT PAGE ---*/
+  #contactLrg{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  .contactForm, #adding{
+    width: 90%;
+    padding: 2%;
+    text-align: center;
+
+    font-size: 1.5rem;
+  }
+  .nameCon, #email, .contactTxt, #Upass,#Uname{
+    margin: 0%;
+    width: 100%;
+    padding: 3%;
+
+  }
+  #Upass,#Uname{
+    width: 50%;
+  }
+.subCon{
+  width: 80%;
+  padding: 3%;
+    font-size: 1.5rem;
+margin-left: 10%;
+clear: both;
+}
+#contact{
+  padding:1% 0% 1% 0%;
+  clear: both;
+  margin: 0%;
+  width: 100%;
+  float: none;
+}
+/*---  ADDING FURNITURE PAGE ----*/
+#adding{
+  margin:0%;
+}
+
+  /*--- Footer ---*/
+  #footer{
+    width: 100%;
+    margin: 0%;
+    height: auto;
+    padding-bottom: 1%;
+  }
+
+  #footer ul{ width: 85%;
+    margin: .5% 0% 0% 5%;
+
+
+    display: inline-block;
+  }
+  #delete input{
+    clear: both;
+    float: none;
+    margin: 0%;
+    width: 100%;
+  }
+  /*--- CLEAR FORCED MARGINS --*/
+  #contactMargin{
+    display: none;
+  }
+}
+
+
+/*-------- END 561-720 WIDTH --------*/
+/*====================================
+======================================
+======================================*/
+
